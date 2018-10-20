@@ -17,4 +17,8 @@
         <br>
         <input type="submit" name="" value="Submit">
       </form>
+      <br>
+      <% users.forEach(function(user){ %>
+        <li><%= user.first_name %><br></li>
+      <%}) %>
 <% include partials/footer %>
